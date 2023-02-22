@@ -1,0 +1,60 @@
+/* Estilos para el texto */
+body p{
+    color: green;
+    text-align: center;
+    padding-top: 0%;
+    color: blue 
+}
+important { color: White}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  /* Estilos para el encabezado del blog */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Estilos para el título del blog */
+  header h1 {
+    text-align: left;
+    margin: 0;
+  }
+  
+  /* Estilos para la sección principal del blog */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-decoration-line:underline;
+  }
+
+  main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Estilos para el pie de página del blog */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  img {
+    display:block ;
+    margin:auto ;
+}
+body{
+    color: red; }
