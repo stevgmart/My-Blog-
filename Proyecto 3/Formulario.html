@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registro En Nuestra Tienda</title>
+    <link rel="stylesheet" href="formulario.css">
+  </head>
+  <body>
+    <h1>Registro En Nuestra Tienda</h1>
+    <form>
+      <label for="nombre_usuario">Nombre de Usuario:</label>
+      <input type="text" id="nombre_usuario" name="nombre_usuario" placeholder="Ejemplo: Stevgmart" required>
+
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" placeholder="Ejemplo: Stevgmart@gmail.com"; required>
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" placeholder="Ejemplo: 21" required>
+
+      <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+      <label>Género:</label>
+      <label for="genero_masculino">Masculino</label>
+      <input type="radio" id="genero_masculino" name="genero" value="masculino" required>
+      <label for="genero_femenino">Femenino</label>
+      <input type="radio" id="genero_femenino" name="genero" value="femenino" required>
+      <label for="genero_otro">Otro</label>
+      <input type="radio" id="genero_otro" name="genero" value="otro" required>
+
+      <label for="recomendacion">¿Quien Te Recomendo Con Nosotros?:</label>
+      <select id="recomendacion" name="recomendacion" required>
+        <option value="">Seleccione una opción</option>
+        <option value="amigo">Un amigo</option>
+        <option value="Microsoft">Microsoft</option>
+        <option value="Google">Google</option>
+      </select>
+
+      <label for="comentarios">Comentarios:</label>
+      <textarea id="comentarios" name="comentarios"></textarea>
+
+      <label>
+        <input type="checkbox" id="terminos_condiciones" name="terminos_condiciones" required>
+        Acepto los términos y condiciones
+      </label>
+
+      <button type="submit">Registrarse</button>
+    </form>
+  </body>
+</html>
